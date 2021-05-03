@@ -1,0 +1,42 @@
+
+NIZAM@DESKTOP-IGG86DG MINGW64 ~/OneDrive/Desktop
+$ mkdir test
+
+NIZAM@DESKTOP-IGG86DG MINGW64 ~/OneDrive/Desktop
+$ cd test
+
+NIZAM@DESKTOP-IGG86DG MINGW64 ~/OneDrive/Desktop/test
+$ touch index.html styles.css commands.txt
+
+NIZAM@DESKTOP-IGG86DG MINGW64 ~/OneDrive/Desktop/test
+$ ls
+commands.txt  index.html  styles.css
+
+NIZAM@DESKTOP-IGG86DG MINGW64 ~/OneDrive/Desktop/test
+$ cp index.html index_2.html
+
+NIZAM@DESKTOP-IGG86DG MINGW64 ~/OneDrive/Desktop/test
+$ cd ..
+
+NIZAM@DESKTOP-IGG86DG MINGW64 ~/OneDrive/Desktop
+$ mkdir destination
+
+NIZAM@DESKTOP-IGG86DG MINGW64 ~/OneDrive/Desktop
+$ mv test/index_2.html destination/index_2.html
+
+NIZAM@DESKTOP-IGG86DG MINGW64 ~/OneDrive/Desktop
+$ cd test
+
+NIZAM@DESKTOP-IGG86DG MINGW64 ~/OneDrive/Desktop/test
+$ rm styles.css
+
+NIZAM@DESKTOP-IGG86DG MINGW64 ~/OneDrive/Desktop/test
+$ ls
+commands.txt  index.html
+
+NIZAM@DESKTOP-IGG86DG MINGW64 ~/OneDrive/Desktop/test
+$ ls ../destination
+index_2.html
+
+NIZAM@DESKTOP-IGG86DG MINGW64 ~/OneDrive/Desktop/test
+$ rm -r ../destination

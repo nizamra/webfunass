@@ -1,0 +1,27 @@
+
+#h1,#img{
+    display: inline-block;
+}
+img{
+    width: 100px;
+}
+#container {
+    max-width: 720px;
+    height: auto;
+    background-color: rgb(214,209,177);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.inner{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+.b{
+    background-color: rgb(119,182,234);
+}
+.r{
+    background-color: rgb(252,100,113);
+}

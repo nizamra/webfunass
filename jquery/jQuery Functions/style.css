@@ -1,0 +1,11 @@
+.container{
+    width:auto;
+    height:auto;
+    border: 1px solid black;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display:none;
+}

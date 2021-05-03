@@ -1,0 +1,12 @@
+#container {
+    background-color: #D4D2AE;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 500px;
+}
+
+img {
+    width: 40px;
+    
+}

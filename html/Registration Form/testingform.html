@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>form</title>
+</head>
+<body>
+    <h1>My Regestration Form</h1>
+    <form>
+        <table>
+            <tr>
+                <td><label for="fname">First name:</label></td>
+                <td><input type="text" name="fname" autofocus required></td>
+            </tr>
+            <tr>
+                <td><label for="last name">Last Name:</label></td>
+                <td><input type="text" name="last name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="PW Confirm">PW Confirm:</label></td>
+                <td><input type="password" name="PW Confirm" required></td>
+            </tr>
+            <tr>
+                <td><label for="BD">Birthday:</label></td>
+                <td><input type="date" name="BD" required></td>
+            </tr>
+        </table>
+        <br>
+
+        <table>
+            <tr>
+                <td><label for="male">Male:</label></td>
+                <td><input type="radio" name="male"></td>
+            </tr>
+            <tr>
+                <td><label for="female">Female:</label></td>
+                <td><input type="radio" name="female"></td>
+            </tr>
+            <tr>
+                <td><label for="other">Other:</label></td>
+                <td><input type="radio" name="other"></td>
+            </tr>
+        </table>
+
+
+        <p>A short description about yourself:</p>
+        <textarea style="height: 120px; width: 350px;"></textarea><br>
+        <label for="langs">Favorite Language</label>
+        <select id="langs" name="langs">
+            <option value="C++">C++</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="JavaScript" selected>JavaScript</option>
+            <option value="C#">C#</option>
+            <option value="Ruby">Ruby</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
