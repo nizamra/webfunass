@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+.container{
+    width:960px;
+    padding: 5px 40px 0px 40px;
+}
+header img{width: 100px;height: auto;}
+header h1{display: inline-block;
+    font-size: 60px;
+    margin-bottom: 15px;
+    vertical-align: bottom;}
+header h1 span{color: #22659E;}
+header h2{
+    background-color: #2B6BA1;
+    height: 40px;
+    padding: 7px;
+    line-height: 40px;
+}
+
+section{
+    background: linear-gradient(to top, #ffffff, #f5f5f5);
+}
+aside{    
+    width: 250px;
+	display: inline-block;
+    padding: 5px;
+}
+aside p span{
+    color: #D9231C;
+}
+aside p:nth-child(2) span{color:#28659d}
+aside button{
+    width: 240px;
+	padding: 10px 0;
+	margin: 5px;
+	border-radius: 10px;
+	font-size: 25px;
+	color: white;
+}
+aside button:first-of-type{
+    background-color: #3a74a8;
+}
+aside button:last-of-type{
+    background-color: #ec8c19;
+}
+aside img{width: 100%;}
+aside .backg{
+    padding-top: 20px;
+    background-image: url(images/ad_background.png);
+}
+aside .backg h2{
+    text-align: center;
+    color: white;
+}
+#learn{
+    background-color:#3bc7de;
+}
+
+main{
+    width: 690px;
+    display: inline-block;
+    vertical-align: top;
+}
+    nav{
+        height: 60px;
+        background-color: transparent;
+        border-bottom: 2px solid rgb(58, 57, 57);
+    }
+    nav img{
+        margin-top: 10px;
+        width: 25px;
+    }
+    nav h4 {
+        display:inline-block;
+    }
+    #phone{
+        vertical-align: top;
+        width: 45px;margin: 10px 5px 0px 350px;
+    }
+        .data{
+            display:inline-block;
+            vertical-align: top;
+        }
+        .data p{
+            color: #6d6d6d;
+        }
+        .data h4{
+            color:#14c1de;
+            font-size: 20px;
+        }
+
+
+    
+    article{
+        margin: 20px 0px;
+    }
+    article ol,ul {
+        margin-left: 50px;
+    }
+    article img {
+        width: 250px;
+        margin: 10px auto;
+        display: block;
+    }
+    article h4{
+        color: #22659E;
+    }
+    article h5 strong{
+        font-size: 15px;
+    }
+    article a,footer a {
+        color: #0097AE;
+        text-decoration: none;
+    }
+
+
+
+    footer{
+        border: 3px solid #0085E0;
+        border-bottom: transparent;
+        height: 120px;
+        display: flex;
+    }
+    footer img{
+        width: 100px;
+        margin-right: 20px;
+    }
+    footer h4 {
+        color: #22659E;
+        font-size:20px;
+        margin: 5px 0px;
+    }
+    
+
+
+
